@@ -1,0 +1,11 @@
+[package]
+name = "spawn_issue"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+freya = { git = "https://github.com/marc2332/freya", features = [
+    "metrics",
+    "tray",
+    "icons-lucide",
+] }
